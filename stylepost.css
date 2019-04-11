@@ -1,0 +1,62 @@
+/*img.resize{
+	width: 200px;
+	height: auto;
+
+}
+*/
+img {
+  object-fit: cover;
+  width:30%;
+  height:600px;
+  /*display: block;*/
+}
+#left{
+	object-position: 50% 0;
+}
+#mid{
+	object-position: 20% 0;
+	/*height:500px;*/
+}
+#right{
+	object-position: 0 0;
+	/*height:;*/
+}
+
+div{
+	margin: 2% auto;
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: block;
+  font-size: 20px;
+  font-weight: bold;
+  color: #686868;
+}
+.lefted {
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  display: block;
+  font-size: 20px;
+  font-weight: bold;
+  color: #686868;
+}
+.righted {
+  position: absolute;
+  top: 50%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  display: block;
+  font-size: 20px;
+  font-weight: bold;
+  color: #686868;
+}
