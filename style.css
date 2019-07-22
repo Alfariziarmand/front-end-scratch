@@ -1,0 +1,23 @@
+.navbar-inner {
+    background:transparent;
+}
+
+.top{
+	background-image: url("https://www.marsdatascience.com/assets/img/bg-home.jpg");
+	height: 768px;
+	background-position: center;
+}
+.jumbotron{
+	background-color: transparent;
+	color: white;
+	width: 400px;
+}
+.mid{
+	height: 768px;
+	background-color: #0d0d0d;
+	
+}
+
+.top .jumbotron{
+	margin: auto;
+}
